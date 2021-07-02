@@ -21,7 +21,7 @@
 .article-card{
   background: #fcfdfe;
   border-radius: 20px;
-  box-shadow:  5px 5px 20px rgba (230,230,230,0);
+  box-shadow:  5px 5px 20px #e6e6e6;
   transition: background 0.5s;
 
 }
