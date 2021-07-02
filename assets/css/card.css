@@ -23,7 +23,7 @@
   border-radius: 20px;
   box-shadow:  5px 5px 20px #e6e6e6,
              -5px -5px 20px #ffffff;
-  transition: 0.5s;
+  transition:background 0.5s;
 
 }
 .dark-theme .article-card{
