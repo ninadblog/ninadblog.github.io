@@ -21,14 +21,12 @@
 .article-card{
   background: #fcfdfe;
   border-radius: 20px;
-  box-shadow:  5px 5px 20px #e6e6e6,
-             -5px -5px 20px #ffffff;
-  transition:background 0.5s;
+  box-shadow:  5px 5px 20px #e6e6e6;
+  transition: 0.5s;
 
 }
 .dark-theme .article-card{
   background: rgb(19, 19, 19);
-  box-shadow: none;
 }
 .article-card:hover{
   cursor: pointer;
