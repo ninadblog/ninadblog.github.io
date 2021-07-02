@@ -7,10 +7,9 @@
 	display: flex;
 	position: relative;
         background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 8.5px );
--webkit-backdrop-filter: blur( 8.5px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
 	margin-top: 1em;
 	cursor: pointer;
 	height: 64px;
@@ -20,13 +19,14 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .dark-theme #dark{
 	background-color: rgba(0,0,0,0.25);
-        box-shadow:none
+        box-shadow:none;
 }
 .dark-theme #header nav ul li a[href="#menu"]:after{
 	filter:invert();
 }
 .dark-theme #header nav ul li a{
 	background-color: rgba(0,0,0,0.5);
+	box-shadow: none;
 }
 .dark-theme #dark:before{
 	content: "\f185";
@@ -1504,8 +1504,11 @@ input, select, textarea {
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
-						background-color: rgba(255, 255, 255, 0.5);
-						border-radius: 4px;
+						box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+                                                backdrop-filter: blur( 8.5px );
+                                                -webkit-backdrop-filter: blur( 8.5px );
+						background-color: rgba(255, 255, 255, 0.25);
+						border-radius: 10px;
 						border: 0;
 						font-size: 0.8em;
 						font-weight: 900;
