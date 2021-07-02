@@ -6,7 +6,11 @@
 #dark{
 	display: flex;
 	position: relative;
-	background: rgba(255, 255, 255, 0.5);
+        background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 	margin-top: 1em;
 	cursor: pointer;
 	height: 64px;
@@ -15,7 +19,8 @@
 	transition: background 0.5s;
 }
 .dark-theme #dark{
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.25);
+        box-shadow:none
 }
 .dark-theme #header nav ul li a[href="#menu"]:after{
 	filter:invert();
