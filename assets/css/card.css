@@ -27,6 +27,7 @@
 }
 .dark-theme .article-card{
   background: rgb(19, 19, 19);
+  box-shadow:none;
 }
 .article-card:hover{
   cursor: pointer;
