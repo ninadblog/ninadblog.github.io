@@ -89,7 +89,7 @@ section, summary, time, mark, audio, video {
 #HCB_comment_box #hcb_form .home-desc{
 	display: none;
 }
-HCB_comment_box a{
+#HCB_comment_box a{
 	border-bottom:none;
 }
 	
