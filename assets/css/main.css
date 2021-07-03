@@ -85,6 +85,9 @@ section, summary, time, mark, audio, video {
     box-sizing: border-box;
     transition: background 0.5s;
 }
+#HCB_comment_box #hcb_form .home-desc{
+	display: none;
+}
 	
 .card {
   display: grid;
