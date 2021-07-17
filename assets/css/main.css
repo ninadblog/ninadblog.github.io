@@ -40,7 +40,7 @@
 }
 
 :root {
-	--primary-color:linear-gradient(to right bottom, #ebdfdb, #efe5e4, #f3ebec, #f6f1f3, #f9f7f9, #f9f7f9, #f8f8fa, #f8f8fa, #f2f3f7, #eceff3, #e6eaf0, #dfe6ec);
+	--primary-color:radial-gradient(to right bottom, #ebdfdb, #efe5e4, #f3ebec, #f6f1f3, #f9f7f9, #f9f7f9, #f8f8fa, #f8f8fa, #f2f3f7, #eceff3, #e6eaf0, #dfe6ec);
 	--secondary-color:#333333;
 	/*--footer-primary:#f6f6f6;*/
 	--footer-secondary:rgb(88, 88, 88);
