@@ -15,7 +15,7 @@
 	height: 64px;
 	width: 64px;
 	border-radius: 10px;
-	transition: background 0.5s;
+	/*transition: background 0.5s;*/
 }
 .dark-theme #dark{
 	background-color: rgba(0,0,0,0.25);
@@ -84,7 +84,7 @@ section, summary, time, mark, audio, video {
 	font-family:'Inter', helvetica, Roboto,sans-serif;
 	vertical-align: baseline;
     box-sizing: border-box;
-    transition: background 0.5s;
+    /*transition: background 0.5s;*/
 }
 #HCB_comment_box #hcb_form .home-desc{
 	display: none;
@@ -1217,7 +1217,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 2.5em -2.5em;
 	}
 
@@ -1813,7 +1813,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 2em 0 ;
-		background-color: var(--footer-primary);
+		/*background-color: var(--footer-primary);*/
 	}
 
 		#footer > .inner {
