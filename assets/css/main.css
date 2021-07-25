@@ -10,7 +10,6 @@
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
-	filter: blur(8.5px);
 	margin-top: 1em;
 	cursor: pointer;
 	height: 64px;
