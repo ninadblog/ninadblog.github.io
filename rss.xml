@@ -33,7 +33,7 @@
 			<h1>Getting started with Linux</h1>
 			<p>Personal computers have evolved in the past and is evolving every coming year. So is the operating system. An operating system is system software that makes communication between computer hardware and software. We have a bunch of operating system to choose from as per our convenience and need.</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/ubuntu.png" medium="image"/>
+			<media:content url="https://ninad.cf/images/ubuntu.png" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>The Man In The Iron Lung</title>
@@ -45,7 +45,7 @@
 			<h1>The Man In The Iron Lung</h1>
 			<p>This is the man in the iron lung, Paul Alexander (born 1946). He is a polio survivor and one of the last people living in an iron lung.</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/paulalexander.jpg" medium="image"/>
+			<media:content url="https://ninad.cf/images/paulalexander.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>What is Cryptocurrency?</title>
@@ -57,7 +57,7 @@
 			<h1>What is Cryptocurrency?</h1>
 			<p>Cryptocurrencies are popular across the internet. We have seen many news publishers, businessmen and influencers talking about cryptocurrency. But what exactly is cryptocurrency and how did it become so popular?</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/cryptocurrency.jpg" medium="image"/>
+			<media:content url="https://ninad.cf/images/cryptocurrency.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Learn as if you were to live forever.</title>
@@ -69,7 +69,7 @@
 			<h1>Learn as if you were to live forever.</h1>
 			<p>It is truly said that there is no specific age to learn something. We may have a common belief that a child has to learn everything in his childhood. This is partly true but someone cannot learn everything in their entire life.</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/learn.jpg" medium="image"/>
+			<media:content url="https://ninad.cf/images/learn.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>How to efficiently use your smartphone and computer together.</title>
@@ -81,7 +81,7 @@
 			<h1>How to efficiently use your smartphone and computer together.</h1>
 			<p>We all use smartphone and computer to complete our day-to-day tasks. Android is the most popular operating system in smartphone market. On the other hand, Windows has the largest userbase in personal computers. So as these are the popular OS then why can we not use them together seamlessly?</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/learn.jpg" medium="image"/>
+			<media:content url="https://ninad.cf/images/andwin.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Review of the book One Indian Girl by Chetan Bhagat</title>
@@ -93,7 +93,7 @@
 			<h1>Review of the book One Indian Girl by Chetan Bhagat</h1>
 			<p>As the COVID-19 has evolved into a pandemic, we are staying in our house to reduce the spread of the virus. I hope everyone is healthy and happy. We have plenty of time now-a-days so it is better to invest it in some work or task.</p>
 			]]></description>
-			<media:content url="https://ninad.cf/images/learn.jpg" medium="image"/>
+			<media:content url="https://ninad.cf/images/oig2.jpg" medium="image" height="200" width="300"/>
 		</item>
 	</channel>
 </rss>
