@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 /*@media (prefers-color-scheme: dark){}*/
 
-#dark{
+#dark,#rss{
 	display: flex;
 	position: relative;
         background: rgba( 255, 255, 255, 0.25 );
@@ -18,6 +18,10 @@
 	transition: background 0.5s;
 }
 .dark-theme #dark{
+	background-color: rgba(0,0,0,0.25);
+        box-shadow:none;
+}
+.dark-theme #rss{
 	background-color: rgba(0,0,0,0.25);
         box-shadow:none;
 }
