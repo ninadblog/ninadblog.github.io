@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Ninad's Blog</title>
+		<link>https://ninad.cf</link>
+		<description>My goal with this blog is to share my thoughts and review some educational stuffs. It can be books, academics, technology, etc.</description>
+		<language>en-us</language>
+		<copyright><![CDATA[ © 2021 Ninad Naik ]]></copyright>
+		<image>
+			<url>https://ninad.cf/images/1.jpg</url>
+			<title>Ninad's Blog</title>
+			<link>https://ninad.cf</link>
+		</image>
+	</channel>
+</rss>
