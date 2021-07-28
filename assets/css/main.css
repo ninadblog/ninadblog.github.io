@@ -42,7 +42,15 @@
 			font-size: 40px;
 			color: #585858;
 }
-
+#rss:before{
+	content: "\f09e";
+			font-family: fontAwesome;
+			font-size: 40px;
+			color: #585858;
+}
+.dark-theme #rss:before{
+	color:#A7A7A7;
+}
 :root {
 	--primary-color:#ffffff;
 	--secondary-color:#333333;
