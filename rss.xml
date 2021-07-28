@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 	<channel>
 		<title>Ninad's Blog</title>
@@ -11,5 +11,49 @@
 			<title>Ninad's Blog</title>
 			<link>https://ninad.cf</link>
 		</image>
+		<item>
+			<title>https://ninad.cf/images/1.jpg</title>
+			<link>https://ninad.cf/10-websites-that-will-help-you-atleast-once</link>
+			<pubDate>, 3 Jul 2021 12:00:00 GMT</pubDate>
+			<author>Ninad Naik</author>
+			<category>Tech</category>
+			<description><![CDATA[ 
+			<h1>https://ninad.cf/images/1.jpg</h1>
+			<p>There are over a billion websites on the internet. We all are familiar with popular websites and use it every day. But do you know some less popular ones which are truly useful and make your work easy and quick?</p>
+			]]></description>
+		</item>
+		<item>
+			<title>Getting started with Linux</title>
+			<link>https://ninad.cf/getting-started-with-linux</link>
+			<pubDate>, 9 Jun 2021 12:00:00 GMT</pubDate>
+			<author>Ninad Naik</author>
+			<category>Tech</category>
+			<description><![CDATA[ 
+			<h1>Getting started with Linux</h1>
+			<p>Personal computers have evolved in the past and is evolving every coming year. So is the operating system. An operating system is system software that makes communication between computer hardware and software. We have a bunch of operating system to choose from as per our convenience and need.</p>
+			]]></description>
+		</item>
+		<item>
+			<title>The Man In The Iron Lung</title>
+			<link>https://ninad.cf/the-man-in-the-iron-lung</link>
+			<pubDate>, 19 May 2021 12:00:00 GMT</pubDate>
+			<author>Ninad Naik</author>
+			<category>Story</category>
+			<description><![CDATA[ 
+			<h1>The Man In The Iron Lung</h1>
+			<p>This is the man in the iron lung, Paul Alexander (born 1946). He is a polio survivor and one of the last people living in an iron lung.</p>
+			]]></description>
+		</item>
+		<item>
+			<title>What is Cryptocurrency?</title>
+			<link>https://ninad.cf/what-is-cryptocurrency</link>
+			<pubDate>, 29 Apr 2021 12:00:00 GMT</pubDate>
+			<author>Ninad Naik</author>
+			<category>Tech</category>
+			<description><![CDATA[ 
+			<h1>What is Cryptocurrency?</h1>
+			<p>Cryptocurrencies are popular across the internet. We have seen many news publishers, businessmen and influencers talking about cryptocurrency. But what exactly is cryptocurrency and how did it become so popular?</p>
+			]]></description>
+		</item>
 	</channel>
 </rss>
