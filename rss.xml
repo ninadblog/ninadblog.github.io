@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:webfeeds="http://webfeeds.org/rss/1.0" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Ninad's Blog</title>
+		<atom:link href="https://ninad.cf/rss.xml" rel="self" type="application/rss+xml"/>
 		<link>https://ninad.cf</link>
 		<description>My goal with this blog is to share my thoughts and review some educational stuffs. It can be books, academics, technology, etc.</description>
+		<webfeeds:cover image="https://ninad.cf/images/1.jpg" />
+<webfeeds:icon>https://i.ibb.co/rfW6K2x/logo2.jpg</webfeeds:icon>
+<webfeeds:logo>https://i.ibb.co/rfW6K2x/logo2.jpg</webfeeds:logo>
+<webfeeds:accentColor>f2849e</webfeeds:accentColor>
+<webfeeds:related layout="card" target="browser"/>
 		<language>en-us</language>
 		<copyright><![CDATA[ © 2021 Ninad Naik ]]></copyright>
 		<image>
