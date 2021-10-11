@@ -2,7 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 /*@media (prefers-color-scheme: dark){}*/
-
+::-moz-selection { /* Code for Firefox */
+	background: #f8becc;
+  }
+  
+  ::selection {
+	background:#f8becc;
+  }
 #dark,#rss{
 	display: flex;
 	position: relative;
@@ -53,7 +59,7 @@
 }
 :root {
 	--primary-color:#ffffff;
-	--secondary-color:#333333;
+	--secondary-color:#222222;
 	--footer-primary:#f6f6f6;
 	--footer-secondary:rgb(88, 88, 88);
 }
