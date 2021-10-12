@@ -83,6 +83,15 @@
   z-index:9999;
 }
 
+.dark-theme #HCB_comment_box #hcb_form textarea, .dark-theme #HCB_comment_box #hcb_form #hcb_form_name{
+	background-color: #090909;
+}
+
+#HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name{
+	transition: background 0.5s;
+
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
