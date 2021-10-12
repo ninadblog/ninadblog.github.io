@@ -9,6 +9,9 @@
   ::selection {
 	background:#f8becc;
   }
+.dark-theme ::selection{
+	color:#000000;
+}
 #dark,#rss{
 	display: flex;
 	position: relative;
