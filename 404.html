@@ -1,235 +1,72 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ninad's Blog</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <!--Add meta tags here-->
-
-
-
-
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="alternate" type="application/rss+xml" title="Ninad's Blog Feed" href="https://ninadblog.github.io/rss.xml" />
-    <link rel="alternate" type="application/rss+xml" title="Ninad's Blog Feed" href="https://ninadblog.github.io/feed.xml" />
-
-    <noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-    <style>
-        .dark-theme .notfound h2 {
-            color: #A7A7A7;
-        }
-        
-        .dark-theme .notfound .notfound-404 h1>span {
-            text-shadow: -8px 0px 0px #000;
-        }
-    </style>
-    <link rel="icon" href="Ninad's_Blog.ico" type="image/x-icon" sizes="48×48 144×144">
-    <link rel="shortcut icon" type="image/x-icon" href="Ninad's_Blog.ico" sizes="32×32 48×48">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
-
-
-</head>
-
-<body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Header -->
-        <header id="header">
-            <div class="inner">
-
-                <!-- Logo -->
-                <a href="index" class="logo">
-                    <span class="fa fa-pencil"></span> <span class="title" style="font-family:'sfmedium';">Ninad's
-						Blog</span>
-                </a>
-
-                <!-- Nav -->
-                <nav>
-                    <ul>
-                        <li><a href="#menu">Menu</a></li>
-                    </ul>
-                    <ul style="text-align: center;">
-                        <li id="dark"></li>
-                    </ul>
-
-                </nav>
-
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="burger.css">
+    <script src="https://use.fontawesome.com/2d5e1d92db.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/font-awesome.min.css"> -->
+<body>
+    <nav id="navbar" class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check">
+            <div class="burger" id="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
             </div>
-        </header>
-
-        <!-- Menu -->
-        <nav id="menu">
-            <h2>Menu</h2>
-            <ul>
-                <li><a href="index" style="font-family: 'sfmedium'">Home</a></li>
-
-                <li><a href="blog" style="font-family: 'sfmedium'">Blog</a></li>
-
-                <li><a href="about" style="font-family: 'sfmedium'">About</a></li>
-
-
-            </ul>
-        </nav>
-
-        <!-- Main -->
-        <div id="main">
-            <div class="inner">
-
-
-                <div id="notfound">
-                    <div class="notfound">
-                        <div class="notfound-404" style="font-family: 'Montserrat', sans-serif;">
-                            <h1><span style="font-family: 'Montserrat', sans-serif;">4</span><span style="font-family: 'Montserrat', sans-serif;">0</span><span style="font-family: 'Montserrat', sans-serif;">4</span></h1>
-                        </div>
-                        <h2>Sorry! The page you have requested is either deleted or does not exist.</h2>
-                    </div>
-                </div>
-            </div>
+        </label>
+        <label class="logo" onclick="location.href='#'"></label>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+    </nav>
+    <section class="background">
+        <div class="mainHeading">
+            <p class="catchline">404</p>
+            <p class="subtext">Hello Wanderers! Looks like you have lost your way. The link you are looking is either deleted, moved or does not exist.</p>
         </div>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-
-
-                <section>
-
-                    <ul class="icons">
-                        <li><a target="_blank" href="https://www.twitter.com/ninadnaik07" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-
-                        <li><a target="_blank" href="https://www.instagram.com/ninadnaik07" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
-                    </ul>
-
-
-                </section>
-
-                <ul class="copyright">
-                    <li>© 2021 Ninad Naik</li>
-                </ul>
+    </section>
+    
+    <footer class="footer">
+        <div class="contact-info">
+            <h4>Find my Inbox</h4>
+            <p><a href="mailto:hello&commat;ninad&period;live">hello&commat;ninad&period;live</a></p>
+        </div>
+        <div class="follow-me">
+            <h4>Follow Me</h4>
+            <a href="https://instagram.com/ninadblog" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/ninadnaik07" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/ninadblog" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+        <ul class="copyright">
+            <li><a href="https://ninad.live/privacy-policy">Privacy Policy</a> |&nbsp;</li>
+            <li>© 2021 Ninad Naik</li>
             </div>
-        </footer>
 
-    </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script async src="assets/js/dark.js"></script>
-
+    </footer>
 </body>
-<style>
-    * {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    
-    body {
-        padding: 0;
-        margin: 0;
-    }
-    
-    #notfound {
-        position: relative;
-        height: 50vh;
-    }
-    
-    #notfound .notfound {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-    
-    .notfound {
-        max-width: 520px;
-        width: 100%;
-        line-height: 1.4;
-        text-align: center;
-    }
-    
-    .notfound .notfound-404 {
-        position: relative;
-        height: 240px;
-    }
-    
-    .notfound .notfound-404 h1 {
-        font-family: 'Montserrat', sans-serif;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        font-size: 252px;
-        font-weight: 900;
-        margin: 0px;
-        color: #262626;
-        text-transform: uppercase;
-        letter-spacing: -40px;
-        margin-left: -20px;
-    }
-    
-    .notfound .notfound-404 h1>span {
-        text-shadow: -8px 0px 0px #fff;
-        transition: text-shadow 0.5s;
-    }
-    
-    .notfound .notfound-404 h3 {
-        font-family: 'Cabin', sans-serif;
-        position: relative;
-        font-size: 16px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #262626;
-        margin: 0px;
-        letter-spacing: 3px;
-        padding-left: 6px;
-    }
-    
-    .notfound h2 {
-        font-family: 'Cabin', sans-serif;
-        font-size: 20px;
-        font-weight: 400;
-        text-transform: uppercase;
-        color: #000;
-        margin-top: 0px;
-        margin-bottom: 25px;
-    }
-    
-    @media only screen and (max-width: 767px) {
-        .notfound .notfound-404 {
-            height: 200px;
+<!-- <script>
+    var prevScrollpos = window.pageYOffset;
+    navbar = document.querySelector("#navbar")
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-85px";
+            navbar.classList.toggle('navWhite');
         }
-        .notfound .notfound-404 h1 {
-            font-size: 200px;
-        }
+        prevScrollpos = currentScrollPos;
     }
-    
-    @media only screen and (max-width: 480px) {
-        .notfound .notfound-404 {
-            height: 162px;
-        }
-        .notfound .notfound-404 h1 {
-            font-size: 162px;
-            height: 150px;
-            line-height: 162px;
-        }
-        .notfound h2 {
-            font-size: 16px;
-        }
-    }
-</style>
-<script src="assets/js/dark.js"></script>
+</script> -->
+
+<script src="/assets/scripts/script.js"></script>
 
 </html>
