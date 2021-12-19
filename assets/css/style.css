@@ -96,7 +96,7 @@ a{
 
 .catchline{
     display: flex;
-    font-size: 5rem;
+    font-size: 35px;
     text-align: center;
     font-weight: 800;
 }
@@ -148,7 +148,7 @@ a{
 }
 
 .background{
-    background: rgba(33,37,41,0.5) no-repeat center center;
+    background: rgba(33,37,41,0.55) no-repeat center center;
     background-size: cover;
     background-blend-mode: darken;
     height: 90vh;
