@@ -495,7 +495,7 @@ p.bq-text{
     margin: 0;
 }
 
-.bq-credit{
+p.bq-credit{
     position: relative;
     color: #292a2b;
     font-size: 1.4rem;
