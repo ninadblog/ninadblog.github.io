@@ -73,10 +73,11 @@
             <li><a href="/about.html">About</a></li>
         </ul>
     </nav>
-    <section class="background" style="background-image:url('https://source.unsplash.com/random/960x540/?space,cityscape,night,buildings,monuments,mountains,rivers,valleys,moon')">
+    <section class="background"
+        style="background-image:url('https://source.unsplash.com/random/960x540/?space,cityscape,night,buildings,monuments,mountains,rivers,valleys,moon')">
         <div class="mainHeading">
-            <p class="catchline post-catchline">Why is Social Media not what you might think?</p>
-            <p class="subtext post-subtext">Posted by Ninad Naik on 12 October, 2021</p>
+            <p class="catchline" id="quote"></p>
+            <p class="subtext" id="author"></p>
         </div>
     </section>
     <div class="post-body">
@@ -88,25 +89,26 @@
 
             <p>I am 18 and I am a college student. I like to read books and listen to songs. I am passionate about
                 astronomy and programming. If you want to discuss about astronomy catch me up.</p>
-
-
-            <footer class="footer">
-                <div class="contact-info">
-                    <h4>Find my Inbox</h4>
-                    <p><a href="mailto:hello&commat;ninad&period;live">hello&commat;ninad&period;live</a></p>
-                </div>
-                <div class="follow-me">
-                    <h4>Follow Me</h4>
-                    <a href="https://instagram.com/ninadblog" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/ninadnaik07" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://github.com/ninadblog" target="_blank"><i class="fa fa-github"></i></a>
-                </div>
-                <ul class="copyright">
-                    <li><a href="https://ninad.live/privacy-policy">Privacy Policy</a> |&nbsp;</li>
-                    <li>© 2021 Ninad Naik</li>
         </div>
+    </div>
 
-        </footer>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <h4>Find my Inbox</h4>
+            <p><a href="mailto:hello&commat;ninad&period;live">hello&commat;ninad&period;live</a></p>
+        </div>
+        <div class="follow-me">
+            <h4>Follow Me</h4>
+            <a href="https://instagram.com/ninadblog" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/ninadnaik07" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/ninadblog" target="_blank"><i class="fa fa-github"></i></a>
+        </div>
+        <ul class="copyright">
+            <li><a href="https://ninad.live/privacy-policy">Privacy Policy</a> |&nbsp;</li>
+            <li>© 2021 Ninad Naik</li>
+
+    </footer>
 </body>
 <!-- <script>
     var prevScrollpos = window.pageYOffset;
@@ -124,5 +126,39 @@
 </script> -->
 
 <script src="/assets/scripts/script.js"></script>
+<script>
+    const text = document.getElementById("quote");
+    const author = document.getElementById("author");
+
+    const getNewQuote = async () => {
+        //api for quotes
+        var url = "https://type.fit/api/quotes";
+
+        // fetch the data from api
+        const response = await fetch(url);
+        console.log(typeof response);
+        //convert response to json and store it in quotes array
+        const allQuotes = await response.json();
+
+        // Generates a random number between 0 and the length of the quotes array
+        const indx = Math.floor(Math.random() * allQuotes.length);
+
+        //Store the quote present at the randomly generated index
+        const quote = allQuotes[indx].text;
+
+        //Store the author of the respective quote
+        const auth = allQuotes[indx].author;
+
+        if (auth == null) {
+            author = "Anonymous";
+        }
+
+        //function to dynamically display the quote and the author
+        text.innerHTML = quote;
+        author.innerHTML = "~ " + auth;
+    }
+
+    getNewQuote();
+</script>
 
 </html>

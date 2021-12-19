@@ -96,7 +96,7 @@ a{
 
 .catchline{
     display: flex;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     font-weight: 800;
 }
@@ -303,8 +303,8 @@ a{
 .post-body img{
     display: block;
     margin: 1em auto;
-    height:378px;
-    width:666px;
+    max-height:378px;
+    max-width:666px;
 }
 
 .post-inner{
@@ -416,6 +416,10 @@ a{
         margin-top: 16px;
         margin-bottom: 3px;
     }
+    .post-body img{
+        max-height: 157px;
+        max-width: 316px;
+    }
 }
 
 @media (max-width: 576px){
@@ -425,6 +429,12 @@ a{
     }
     .post-inner{
         padding: 1.5em;
+    }
+    .catchline{
+        font-size: 30px;
+    }
+    .subtext{
+        font-size: 25px;
     }
 }
 
@@ -534,9 +544,12 @@ p.bq-text{
     margin: 0.5em;
 }
 
+.footer-end{
+    color: #5e6a75;
+}
+
 .copyright{
     display: flex;
     list-style: none;
     flex-direction: row;
-    color: #5e6a75;
 }
