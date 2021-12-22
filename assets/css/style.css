@@ -270,6 +270,11 @@ a{
     text-align: start
 }
 
+.thought-info{
+    color: #212529;
+    margin-bottom: 5em;
+}
+
 .italic-p{
     color: rgb(108, 117, 125);
     margin-bottom: 32px;
@@ -333,12 +338,21 @@ a{
 
 .post-list li{
     line-height: 1.75em;
+    margin-bottom: 1em;
+}
+
+.post-inner ul, .post-inner ol{
+    margin: 1em;
 }
 
 .post-inner a{
     color: inherit;
     border-bottom: dotted 1px;
     text-decoration: none;
+}
+
+.post-inner h2{
+    font-size: 22px;
 }
 
 .post-catchline{
@@ -359,6 +373,15 @@ a{
     cursor: pointer;
 } */
 
+
+code {
+    font-family: 'Source Code Pro', monospace;
+    padding: 5px;
+    background-color: #f6f6f6;
+    color: #333333;
+    border: 1px solid #f2849e;
+    border-radius: 5px;
+}
 
 @media (min-width: 751px) {
     #navbar {
