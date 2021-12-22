@@ -374,12 +374,12 @@ a{
 } */
 
 
-code {
+code,.code {
     font-family: 'Source Code Pro', monospace;
     padding: 5px;
     background-color: #f6f6f6;
     color: #333333;
-    border: 1px solid #f2849e;
+    border: 1px solid;
     border-radius: 5px;
 }
 
