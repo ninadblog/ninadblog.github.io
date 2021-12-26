@@ -338,7 +338,7 @@ a{
 
 .post-list li{
     line-height: 1.75em;
-    margin-bottom: 1em;
+    /* margin-bottom: 1em; */
 }
 
 .post-inner ul, .post-inner ol{
