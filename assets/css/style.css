@@ -130,7 +130,7 @@ a{
 
 .line{
     width: 33px;
-    height: 4px;
+    height: 2px;
     margin: 5px 3px;
     background-color: #212529;
 }
@@ -571,6 +571,7 @@ p.bq-credit{
 }
 
 .copyright{
+    color: #5e6a75;
     display: flex;
     list-style: none;
     flex-direction: row;
