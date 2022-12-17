@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/"  xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		
-		<atom:link href="https://ninad.live/rss.xml" rel="self" type="application/rss+xml"/>
-		<link>https://ninad.live</link>
+		<atom:link href="https://blog.ninadnaik.in/rss.xml" rel="self" type="application/rss+xml"/>
+		<link>https://blog.ninadnaik.in</link>
 		<description>My goal with this blog is to share my thoughts and review some educational stuffs. It can be books, academics, technology, etc.</description>
-		<webfeeds:cover image="https://ninad.live/images/1.jpg" />
+		<webfeeds:cover image="https://blog.ninadnaik.in/images/1.jpg" />
 <webfeeds:icon>https://i.ibb.co/rfW6K2x/logo2.jpg</webfeeds:icon>
 <webfeeds:logo>https://i.ibb.co/rfW6K2x/logo2.jpg</webfeeds:logo>
 <webfeeds:accentColor>ffffff</webfeeds:accentColor>
@@ -14,13 +14,13 @@
 		<language>en-us</language>
 		<copyright><![CDATA[ © 2022 Ninad Naik ]]></copyright>
 		<image>
-			<url>https://ninad.live/images/1.jpg</url>
+			<url>https://blog.ninadnaik.in/images/1.jpg</url>
 			
-			<link>https://ninad.live</link>
+			<link>https://blog.ninadnaik.in</link>
 		</image>
 		<item>
 			<title>Be Good at One Thing</title>
-			<link>https://ninad.live/blog/be-good-at-one-thing</link>
+			<link>https://blog.ninadnaik.in/blog/be-good-at-one-thing</link>
 			<pubDate>, 17 May 2022 12:00:00 IST</pubDate>
 			<author>Ninad Naik</author>
 			<category>Thought</category>
@@ -29,12 +29,12 @@
 			<p>Should you be a jack of all
         trades or a master of one?</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/Should you be a jack of all
+			<media:content url="https://blog.ninadnaik.in/images/Should you be a jack of all
         trades or a master of one?" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Why is Social Media not what you might think?</title>
-			<link>https://ninad.live/blog/why-is-social-media-not-what-you-might-think</link>
+			<link>https://blog.ninadnaik.in/blog/why-is-social-media-not-what-you-might-think</link>
 			<pubDate>, 12 Oct 2021 12:00:00 IST</pubDate>
 			<author>Ninad Naik</author>
 			<category>Tech</category>
@@ -42,11 +42,11 @@
 			<h1>Why is Social Media not what you might think?</h1>
 			<p>We all use social media everyday. But have you seen the behind-the-scenes? What is the real purpose of these companies?</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/social.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/social.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>10 Websites that will help you at least once</title>
-			<link>https://ninad.live/blog/10-websites-that-will-help-you-atleast-once</link>
+			<link>https://blog.ninadnaik.in/blog/10-websites-that-will-help-you-atleast-once</link>
 			<pubDate>, 3 Jul 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Tech</category>
@@ -54,11 +54,11 @@
 			<h1>10 Websites that will help you at least once</h1>
 			<p>There are over a billion websites on the internet. We all are familiar with popular websites and use it every day. But do you know some less popular ones which are truly useful and make your work easy and quick?</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/browser.png" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/browser.png" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Getting started with Linux</title>
-			<link>https://ninad.live/blog/getting-started-with-linux</link>
+			<link>https://blog.ninadnaik.in/blog/getting-started-with-linux</link>
 			<pubDate>, 9 Jun 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Tech</category>
@@ -66,11 +66,11 @@
 			<h1>Getting started with Linux</h1>
 			<p>Personal computers have evolved in the past and is evolving every coming year. So is the operating system. An operating system is system software that makes communication between computer hardware and software. We have a bunch of operating system to choose from as per our convenience and need.</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/ubuntu.png" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/ubuntu.png" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>The Man In The Iron Lung</title>
-			<link>https://ninad.live/blog/the-man-in-the-iron-lung</link>
+			<link>https://blog.ninadnaik.in/blog/the-man-in-the-iron-lung</link>
 			<pubDate>, 19 May 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Story</category>
@@ -78,11 +78,11 @@
 			<h1>The Man In The Iron Lung</h1>
 			<p>This is the man in the iron lung, Paul Alexander (born 1946). He is a polio survivor and one of the last people living in an iron lung.</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/paulalexander.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/paulalexander.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>What is Cryptocurrency?</title>
-			<link>https://ninad.live/blog/what-is-cryptocurrency</link>
+			<link>https://blog.ninadnaik.in/blog/what-is-cryptocurrency</link>
 			<pubDate>, 29 Apr 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Tech</category>
@@ -90,11 +90,11 @@
 			<h1>What is Cryptocurrency?</h1>
 			<p>Cryptocurrencies are popular across the internet. We have seen many news publishers, businessmen and influencers talking about cryptocurrency. But what exactly is cryptocurrency and how did it become so popular?</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/cryptocurrency.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/cryptocurrency.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Learn as if you were to live forever.</title>
-			<link>https://ninad.live/blog/learn-as-if-you-were-to-live-forever</link>
+			<link>https://blog.ninadnaik.in/blog/learn-as-if-you-were-to-live-forever</link>
 			<pubDate>, 16 Mar 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Thought</category>
@@ -102,11 +102,11 @@
 			<h1>Learn as if you were to live forever.</h1>
 			<p>It is truly said that there is no specific age to learn something. We may have a common belief that a child has to learn everything in his childhood. This is partly true but someone cannot learn everything in their entire life.</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/learn.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/learn.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>How to efficiently use your smartphone and computer together.</title>
-			<link>https://ninad.live/blog/how-to-efficiently-use-your-smartphone-and-computer-together</link>
+			<link>https://blog.ninadnaik.in/blog/how-to-efficiently-use-your-smartphone-and-computer-together</link>
 			<pubDate>, 27 Feb 2021 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Tech</category>
@@ -114,11 +114,11 @@
 			<h1>How to efficiently use your smartphone and computer together.</h1>
 			<p>We all use smartphone and computer to complete our day-to-day tasks. Android is the most popular operating system in smartphone market. On the other hand, Windows has the largest userbase in personal computers. So as these are the popular OS then why can we not use them together seamlessly?</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/andwin.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/andwin.jpg" medium="image" height="200" width="300"/>
 		</item>
 		<item>
 			<title>Review of the book One Indian Girl by Chetan Bhagat</title>
-			<link>https://ninad.live/blog/review-of-one-indian-girl</link>
+			<link>https://blog.ninadnaik.in/blog/review-of-one-indian-girl</link>
 			<pubDate>, 28 Jul 2020 12:00:00 GMT</pubDate>
 			<author>Ninad Naik</author>
 			<category>Review</category>
@@ -126,7 +126,7 @@
 			<h1>Review of the book One Indian Girl by Chetan Bhagat</h1>
 			<p>As the COVID-19 has evolved into a pandemic, we are staying in our house to reduce the spread of the virus. I hope everyone is healthy and happy. We have plenty of time now-a-days so it is better to invest it in some work or task.</p>
 			]]></description>
-			<media:content url="https://ninad.live/images/oig2.jpg" medium="image" height="200" width="300"/>
+			<media:content url="https://blog.ninadnaik.in/images/oig2.jpg" medium="image" height="200" width="300"/>
 		</item>
 	</channel>
 </rss>

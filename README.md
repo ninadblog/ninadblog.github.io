@@ -1,2 +1,2 @@
 # Ninad's Blog
-Live at [ninad.live](https://ninad.live)
+Live at [blog.ninadnaik.in](https://blog.ninadnaik.in)
